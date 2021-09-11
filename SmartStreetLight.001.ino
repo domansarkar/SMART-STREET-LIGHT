@@ -122,7 +122,7 @@ void fadeOn(int low, int high, int h, int s, int v, int rot){ //function for ani
       if(i >= low+c && i <= high+c){  //fade for lamp2
         panelHSV(h, s, i-c, 1);
       }
-      if(i >= low+c+c && i <= high+c+c){  fade for lamp1
+      if(i >= low+c+c && i <= high+c+c){  //fade for lamp1
         panelHSV(h, s, i-c-c, 0);
       }                           //effects of turning on will be   low     lim
     }                             //                       lamp1      |---|  |
